@@ -14,8 +14,6 @@ Implement a 4-way kaleidoscope effect using NumPy and Matplotlib.
 ● Ensure that each color channel undergoes the same transformation as the grayscale version.
 ● Display the resulting kaleidoscope effect using Matplotlib.
 
-![image](https://github.com/user-attachments/assets/f3feb341-63df-46a6-b314-abecf39ab52d)
-![image](https://github.com/user-attachments/assets/6de2fbaf-7d9e-4c83-9960-d90640db151c)
 
 1. Kaleidoscope Program
 
