@@ -44,4 +44,4 @@ Implement a backward() method for the Node class to compute gradients using the 
 
 
 
-My Code and Approach : 
+My Code and Approach : Here I have created a node class in which I have applied operator overloading for addition , subtraction , multiplication , division and exponentiation . Then I have created a backward method that recursively carries out backpropagation by accumulating the gradients and then applying them to the children of the node. Then it accumulates the gradient into the grad attribute and then to verify its correctness , I have printed the output by applying this method by creating a sample computational graph. This entire task is an example of a mini-Pytorch-like Autograd system in real world that helps in computing gradients effectively. This requires some basic calculus concepts and partial derivatives concept in order to compute gradients recursively by applying chain rules , product and quotient rules.
