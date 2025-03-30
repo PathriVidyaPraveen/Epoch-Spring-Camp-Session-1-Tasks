@@ -53,18 +53,18 @@ class Node :
         
 
 
-# x = Node(1)
-# y = Node(2)
-# z = Node(3)
+x = Node(1)
+y = Node(2)
+z = Node(3)
 
-# a = x + y
-# b = a * z
+a = x + y
+b = a * z
 
-# print("a :  ",a)
-# print("b :  ", b)
+print("a :  ",a)
+print("b :  ", b)
 
-# print("Children of a :  {}".format(a.children))
-# print("Children of b :  {}".format(b.children))
+print("Children of a :  {}".format(a.children))
+print("Children of b :  {}".format(b.children))
 
 # Verify the correctness of the gradient calculation 
 a = Node(2) 
@@ -78,6 +78,7 @@ d.backward()
 print(f"Gradient of d with respect to a: {a.grad}")
 print(f"Gradient of d with respect to b: {b.grad}")
 print(f"Gradient of d with respect to c: {c.grad}")
+
 
 
 
